@@ -1,0 +1,19 @@
+.item {
+  display: inline-block;
+}
+
+.item .each-item {
+  padding: 10px 14px 10px 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: regular;
+  text-align: right;
+}
+
+.item .each-item:hover {
+  background: #3f3e3e;
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main-menu.css.map */

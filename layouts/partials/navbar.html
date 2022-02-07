@@ -1,0 +1,35 @@
+<nav class="navbar sticky-top navbar-expand-sm bg-dark navbar-dark ">
+  <div class="container">
+    <div class="logo">
+      <a href="{{ .Site.BaseURL }}" class="navbar-brand">
+        <img
+          class="image img-responsive"
+          src="{{ .Site.BaseURL }}/images/Helix_logo.jpg"
+          alt="HELIX"
+        />
+      </a>
+    </div>
+    <div class="collapse navbar-collapse " id="menu">
+      <ul class="navbar-nav ms-auto">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="item menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" >
+          <a href="{{.URL}}" class="each-item">
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+        {{end}}
+      </ul>
+    </div>
+    <button
+        type="button"
+        class="navbar-toggler ms-auto"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu"
+        aria-controls="menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  </div>
+</nav>

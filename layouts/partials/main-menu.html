@@ -1,0 +1,25 @@
+<div class="main-menu">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          <li class="item menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" >
+            <a href="{{.URL}}" class="each-item img-responsive">
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+  </div>

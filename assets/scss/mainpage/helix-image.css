@@ -1,0 +1,128 @@
+.main_page {
+  background-color: #111827 !important;
+  padding-bottom: 149px;
+}
+
+.main_page .container .main_subTitle {
+  font-size: 90px;
+  padding-top: 140px !important;
+  text-transform: uppercase;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+
+.main_page .container .main_subHeading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main_page .container .main_image_button1 .btn-danger {
+  background-color: #d40404 !important;
+  border-color: #d40404 !important;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.main_page .container .main_image_button1 .btn-danger:hover {
+  background-color: #0c0014 !important;
+  color: white !important;
+  border-top-color: white !important;
+  border-bottom-color: white !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  padding: 10px 30px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main_page .container .main_image_button2 .btn-outline-danger {
+  border-top-color: #d40404 !important;
+  border-bottom-color: #d40404 !important;
+  border-right-color: transparent !important;
+  border-left-color: transparent !important;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  font-size: 10px;
+}
+
+.main_page .container .main_image_button2 .btn-outline-danger:hover {
+  background-color: #d40404 !important;
+  border-color: transparent !important;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.home_lock {
+  background-color: black !important;
+}
+
+.home_lock .container {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.home_lock .container .row .order .section-title {
+  font-size: 50px;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.home_lock .container .row .order .section-content {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.home_lock .container .row .order .section-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.scalar .container .row .scalar-content .scalar-title {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.scalar .container .row .scalar-content .scalar-content1 {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.scalar .container .row .scalar-content .scalar-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.section_features .container .row {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.section_features .container .row .features_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.section_features .container .row .features-content {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
+  font-size: 30px !important;
+}
+
+.feature_card .feature_card_container .row .card {
+  background-color: #f3f4f6;
+}
+
+.feature_card .feature_card_container .row .card .card-body .row .feature_link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=helix-image.css.map */

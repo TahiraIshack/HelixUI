@@ -1,0 +1,27 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+
+[params]
+slogan = "Devops Centric"
+
+[[menu.main]]
+    name = "Feedback"
+    url ="/feedback"
+    weight = 1
+
+[[menu.main]]
+    name = "Catalog"
+    url = "/catalog"
+    weight = 2
+
+[[menu.main]]
+    name = "Whitepapers"
+    url ="/whitepapers"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"
+    weight = 4
